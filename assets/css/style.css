@@ -1,15 +1,4 @@
-/*-------------------------------------------------------------------*/
-/* === Import Bootstrap functions and variables === */
-/*-------------------------------------------------------------------*/
-/* === Import template variables === */
-/*-------------------------------------------------------------------*/
-/* === Boostrap Main SCSS === */
-/*!
- * Bootstrap v4.4.1 (https://getbootstrap.com/)
- * Copyright 2011-2019 The Bootstrap Authors
- * Copyright 2011-2019 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
+
 :root {
   --blue: #5e50f9;
   --indigo: #6610f2;
@@ -68,6 +57,7 @@ html {
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  overflow-x: hidden;
 }
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
@@ -83,6 +73,7 @@ body {
   color: #3a3a3a;
   text-align: left;
   background-color: #fff;
+  overflow-x: hidden;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -414,6 +405,9 @@ header .navbar-bottom {
   padding-top: 18px;
   padding-bottom: 18px !important;
 }
+.font-weight-600 a{
+  color: #000;
+}
 .font-weight-600 {
   font-weight: 600;
   text-align: right !important;
@@ -421,9 +415,22 @@ header .navbar-bottom {
 .pr-3{
   width: 85%;
 }
-.pr-3 h5, .fs-12,.fs-13,.latest_news{
+.pr-3 h5, .fs-12,.fs-13,.fs-15,.latest_news{
 text-align: right;
 }
+.form-control {
+  border: 1px solid black !important;
+}
+
+.active{
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 5px;
+}
+.active a{
+  color: black !important;
+}
+
 .display-1 {
   font-size: 6rem;
   font-weight: 300;
