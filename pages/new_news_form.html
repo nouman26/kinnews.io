@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="zxx" dir="rtl">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Kin News</title>
+    <!-- plugin css for this page -->
+    <link
+      rel="stylesheet"
+      href="../assets/vendors/mdi/css/materialdesignicons.min.css"
+    />
+    <link rel="stylesheet" href="../assets/vendors/aos/dist/aos.css/aos.css" />
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- End plugin css for this page -->
+    <link rel="shortcut icon" href="../assets/images/logo1.jpg" />
+
+    <!-- inject:css -->
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/header.css">
+    <!-- endinject -->
+  </head>
+
+  <body>
+
+    <!-- Main Wrapper -->
+<div class="main-wrapper">
+<!--/ Nav Start /-->
+    <header id="header">
+            <div class="container">
+              <nav class="navbar navbar-expand-lg navbar-light">
+                
+                <div class="navbar-bottom">
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div>
+                      <a class="navbar-brand" href="#"><img src="../assets/images/logo.jpg" alt="" /></a>
+                    </div>
+                    <div>
+                      <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                      >
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="navbar-collapse justify-content-center collapse" id="navbarSupportedContent" >
+                        <ul
+                          class="navbar-nav d-lg-flex justify-content-between align-items-center"
+                        >
+                          <li>
+                            <button class="navbar-close">
+                              <i class="mdi mdi-close"></i>
+                            </button>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="../index.html">پهرين صفحو</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="./magazine.html">اخبار</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="./business.html">علاقائي خبرون</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="./sports.html">نمائندي جي تصديق</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="./contactus.html">رابطو ڪريو</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <ul class="social-media">
+                      <li>
+                        <a href="#">
+                          <i class="mdi mdi-facebook"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <i class="mdi mdi-youtube"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <i class="mdi mdi-twitter"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+            </div>
+    </header>
+  <!--/ Nav End /-->
+			
+			
+			<!-- Page Content -->
+			<div class="content">
+				<form action="/doctor-basic-information" method="post" enctype="multipart/form-data">
+				<div class="container-fluid">
+
+					<div style="justify-content: center;" class="row">
+						
+						<div class="col-md-7 col-lg-8 col-xl-9">
+						
+							<!-- Basic Information -->
+							<div class="card">
+								<div class="card-body">
+									<h4 style="text-align: center; word-spacing: 7px; font-size: 26px;" class="card-title">نئون خبرجو فارم ڀريو۽ سيو ڪيو</h4>
+									<div class="row form-row">
+
+										<div class="col-md-12">
+											<div class="form-group">
+												<div class="change-avatar">
+													<div class="upload-img">
+														<div class="change-photo-btn">
+															<span><i class="fa fa-upload"></i> صرف هڪ فوٽو اپ لوڊ ڪريو<span class="text-danger">*</span></span>
+															<input type="file" name="file" class="upload" required>
+														</div>
+														<small class="form-text text-muted">Allowed JPG, GIF or PNG. Max size of 2MB</small>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-12">
+											<div class="form-group">
+												<label>يوٽيوب وڊيو لنڪ <span class="text-danger">*</span></label>
+												<input type="text" name="youtube_video_link" class="form-control" required>
+											</div>
+										</div>
+										<div class="col-md-12">
+											<div class="form-group">
+												<label>هيڊنگ لا ُن <span class="text-danger">*</span></label>
+												<input type="text" name="heading_line" class="form-control" required>
+											</div>
+										</div>
+										<div class="col-md-12">
+											<div class="form-group">
+												<label>خبر جي تاريخ </label>
+												<input type="text" class="form-control" name="date_of_birth">
+											</div>
+										</div>
+										<div class="col-md-12">
+											<div class="form-group mb-0">
+												<label>خبر جي وضاحت </label>
+												<textarea class="form-control" name="new_discription"></textarea>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- /Basic Information -->
+							
+							<div style="float: right;" class="submit-section submit-btn-bottom">
+								<button type="submit" class="btn btn-primary submit-btn">Save</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</form>
+			</div>		
+			<!-- /Page Content -->
+   
+		   
+		</div>
+		!-- /Main Wrapper -->
+		<!-- inject:js -->
+		<script src="../assets/vendors/js/vendor.bundle.base.js"></script>
+		<!-- endinject -->
+		<!-- plugin js for this page -->
+		<script src="../assets/vendors/aos/dist/aos.js/aos.js"></script>
+		End plugin js for this page
+		<!-- Custom js for this page-->
+		<script src="../assets/js/demo.js"></script>
+		<!-- End custom js for this page-->
+		
+	</body>
+
+</html>

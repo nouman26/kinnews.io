@@ -418,9 +418,6 @@ header .navbar-bottom {
 .pr-3 h5, .fs-12,.fs-13,.fs-15,.latest_news{
 text-align: right;
 }
-.form-control {
-  border: 1px solid black !important;
-}
 
 .active{
   background-color: #ffffff;
@@ -431,6 +428,89 @@ text-align: right;
   color: black !important;
 }
 
+.col-lg-5{
+  background-color: white;
+  margin: 10px;
+  margin-left: 40px;
+  padding: 10px;
+}
+
+
+@media (max-width: 1024px){
+header .navbar-bottom .navbar-nav .nav-item .nav-link {
+    padding: 18px 12px !important;
+    font-size: 20px !important;
+}
+.active{
+  padding: 0px;
+}
+
+}
+@media only screen and (max-width:991px) {
+  .col-lg-5{
+    margin-left: unset;
+    margin: 10px;
+  }
+}
+
+.banner_thumb{
+  padding:0 !important;
+  background:#ff0000 !important;
+  color: white !important;
+}
+.dashboard-menu a{
+  text-align: right;
+  font-size: 25px;
+  color: #000;
+}
+
+.edit_delete_div{
+  display: flex;
+  justify-content: space-around; 
+  padding: 10px; 
+  font-size: 23px;
+}
+
+.delete_news{
+  background-color: red;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.delete_news a:hover{
+  background-color: white;
+  padding: 5px;
+  border-radius: 10px;
+  color: red !important;
+}
+
+
+.edit_news{
+  background-color: #032a63;
+  padding: 5px; 
+  border-radius: 10px;
+}
+
+.edit_news a:hover{
+  background-color: white;
+  padding: 5px; 
+  border-radius: 10px;
+  color: #032a63 !important;
+}
+
+.delete_news a,.edit_news a{
+  color: white !important;
+}
+.add_new_news{
+  margin-top:10px !important;
+  padding:0 !important; 
+  background: #032a63 !important;
+}
+
+
+.add_new_news a{
+  color: white !important;
+}
 .display-1 {
   font-size: 6rem;
   font-weight: 300;
